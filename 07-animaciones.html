@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./07-animaciones.css">
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <!-- <meta http-equiv="refresh" content="2"> -->
+
+  <script src="main.js"></script>
+</head>
+
+
+
+<body>
+
+  
+
+<!-- <header>
+  <h1>Titulo del DOC</h1>
+</header> -->
+
+
+
+<!-- <div id="animation">.</div> -->
+
+
+
+<div id="corazon"><img src="./corazon.png" width="60px" alt=""></div>
+
+<div id="tierra"><span id="luna">.</span></div>
+
+<div id="star"><img src="./star.png" width="500px" alt=""></div>
+
+<div id="reloj"><div id="minuto"></div> <div id="segundo"></div></div>
+
+<div id="ojos"><div id="parpado"></div></div>
+<div id="ojos"><div id="parpado"></div></div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    (function () {
+      var h, a, f;
+      a = document.getElementsByTagName('link');
+      for (h = 0; h < a.length; h++) {
+        f = a[h];
+        if (f.rel.toLowerCase().match(/stylesheet/) && f.href) {
+          var g = f.href.replace(/(&|\?)rnd=\d+/, '');
+          f.href = g + (g.match(/\?/) ? '&' : '?');
+          f.href += 'rnd=' + (new Date().valueOf());
+        }
+      } // for
+    })()
+  </script>
+
+
+</html>
