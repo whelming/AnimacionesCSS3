@@ -11,6 +11,7 @@ h1 {
   display: inline-block;
 }
 #contenido::after {
+  content: '<<';
   color: yellow;
   border: 1px solid red;
 }
